@@ -1,0 +1,12 @@
+# Ignore the dataset .rar file
+YOGA/
+
+# Ignore the env folder
+venv/
+
+# Ignore other files and directories
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
