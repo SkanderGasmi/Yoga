@@ -3,32 +3,40 @@
 This is a lab project for the Deep Learning course of the Data Science program. The goal of the project is to develop a model that can automatically classify images of people doing yoga poses into different categories using human pose estimation.
 
 ## Business Understanding
+
 The yoga pose image classification problem involves automatically classifying images of people doing yoga poses into different categories. This is an image recognition problem that belongs to the field of deep learning specifically computer vision.
 
-## 1- Data Requirements & Data Collection
-The dataset used for this project is attached. You can download it from the given link and extract the contents to the YOGA/ folder in the project's directory.
-link: 
+## Data Requirements & Data Collection
 
-## 2- Environment Setup
+The dataset used for this project can be downloaded directly from the script. The script automatically downloads the dataset from a Google Drive link and extracts the contents to the `data/extracted` folder in the project's directory. The dataset contains images of people doing various yoga poses.
+
+The script also creates a backup of the dataset in the `data/backup` folder in case the extracted dataset is modified or corrupted in the preprocessing phase or deleted accidentally.
+
+## Environment Setup
+
 To run the code, you need to set up a virtual environment and install the required packages. Follow these steps to set up your environment:
 
-### Clone the repository to your local machine.
-Open a terminal and navigate to the root directory of the project.
-``` git clone ```
-### Create a virtual environment by running the following command:
- - Open a terminal and navigate to the root directory of the project after cloning it and run: 
+1. Clone the repository to your local machine.
 
-```  python -m venv venv ``` 
- - Activate the virtual environment by running:
- 
-``` source venv/Scripts/activate ``` 
+    ```
+    git clone https://github.com/SkanderGasmi/Yoga
+    ```
 
-Install the required packages by running:
-``` pip install -r requirements.txt ``` 
+2. Create a virtual environment by running the following command:
 
+    ```
+    python -m venv venv
+    ```
 
-## 3- Data Understanding & Data Preparation
-The yoga.ipynb notebook contains code for data understanding and preparation. 
+3. Activate the virtual environment by running:
 
-## 4- Data Modeling & Model Evaluation
-The notebook contains code for building and evaluating the model.
+    ```
+    source venv/Scripts/activate
+    ```
+
+4. Install the required packages by running:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
