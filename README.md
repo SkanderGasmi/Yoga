@@ -30,9 +30,14 @@ To run the code, you need to set up a virtual environment and install the requir
 
 3. Activate the virtual environment by running:
 
-    ```
-    source venv/Scripts/activate
-    ```
+    - On Windows: 
+        ```
+        venv\Scripts\activate
+        ```
+    - On Linux/MacOS: 
+        ```
+        source venv/bin/activate
+        ```
 
 4. Install the required packages by running:
 
@@ -40,3 +45,11 @@ To run the code, you need to set up a virtual environment and install the requir
     pip install -r requirements.txt
     ```
 
+
+## Data Understanding & Data Preparation
+
+TODO
+
+## Data Modeling & Model Evaluation
+
+TODO
